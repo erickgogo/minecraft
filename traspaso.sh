@@ -2,7 +2,7 @@
 
 # Ruta de instalación
 INSTALL_DIR="$HOME/minecraft-server"
-JAR_URL="https://launcher.mojang.com/v1/objects/f0103cce3942b049ae29e58a4eb9fe67995b37c0/server.jar"
+JAR_URL="https://piston-data.mojang.com/v1/objects/e6ec2f64e6080b9b5d9b471b291c33cc7f509733/server.jar"
 JAR_FILE="server.jar"
 
 # Crear directorio del servidor
@@ -11,7 +11,7 @@ mkdir -p "$INSTALL_DIR"
 cd "$INSTALL_DIR" || exit 1
 
 # Descargar el server.jar
-echo "⬇️ Descargando servidor de Minecraft 1.21.1..."
+echo "⬇️ Descargando servidor de Minecraft 1.21.5..."
 wget -O "$JAR_FILE" "$JAR_URL"
 
 # Aceptar el EULA
